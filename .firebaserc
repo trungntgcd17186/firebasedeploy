@@ -1,0 +1,29 @@
+{
+  "projects": {
+    "default": "interntenomad"
+  },
+  "targets": {
+    "interntenomad": {
+      "hosting": {
+        "password": [
+          "password-interntenomad"
+        ],
+        "rotating": [
+          "rotating-interntenomad"
+        ],
+        "todo": [
+          "todo-interntenomad"
+        ],
+        "verify": [
+          "verify-interntenomad"
+        ],
+        "intern": [
+          "interntenomad"
+        ],
+        "drawingapp": [
+          "drawingapp-interntenomad"
+        ]
+      }
+    }
+  }
+}

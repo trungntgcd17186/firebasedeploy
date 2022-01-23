@@ -1,0 +1,76 @@
+{
+  "hosting": [
+    {
+      "target": "intern",
+      "public": "/",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "index.html"
+        }
+      ]
+    },
+    {
+      "target": "drawingapp",
+      "public": "drawingapp/build",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "target": "password",
+      "public": "Intern-tnm-PasswordGenerator/build",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "target": "todo",
+      "public": "todo/build",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "target": "rotating",
+      "public": "rotating-navigation-animation/build",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "target": "verify",
+      "public": "verifyaccount/build",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
